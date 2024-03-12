@@ -37,19 +37,33 @@
         </nav>
         <!-- Masthead-->
         <header class="masthead bg-primary text-white text-center" id="top">
-            <div class="container d-flex align-items-center flex-column">
-                <!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase mb-2">Tanaka's Labo</h1>
-            </div>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-flask-vial"></i></div>
-                    <div class="divider-custom-line"></div>
+            <container>
+                <div class="container d-flex align-items-center flex-column">
+                    <!-- Masthead Heading-->
+                    <h1 class="masthead-heading text-uppercase mb-2">Tanaka's Labo</h1>
                 </div>
-                <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">これまでの経験や私にできること</p>
-            </div>
+                    <!-- Icon Divider-->
+                    <div class="divider-custom divider-light">
+                        <div class="divider-custom-line"></div>
+                        <div class="divider-custom-icon"><i class="fas fa-flask-vial"></i></div>
+                        <div class="divider-custom-line"></div>
+                    </div>
+                    <!-- Masthead Subheading-->
+                    <p class="masthead-subheading font-weight-light mb-5">これまでの経験や私にできること</p>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-sm-8 col-10 mb-0">
+                        <div class="mx-auto">
+                            <div class="d-flex align-items-center justify-content-center w-400">
+                            </div>
+                            <div>
+                                <h5 class="fs-4 lead mt-3">はじめに</h5>
+                                <p class="fs-5 lead mt-5">大学入学から現在まで、プログラミング×英語×株式投資を3本柱とし、1日1日を全力で積み上げてきました。時には大きく体調を崩したり、挫折しそうになったりと、辛いこともありましたが、このサイトでは私の成果物だけでなく、この3つのシナジー的成長をお伝えできれば幸いです。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </container>
         </header>
         <!-- Portfolio Section-->
         <section class="page-section portfolio" id="portfolio">
@@ -99,7 +113,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid border border-light border-2" src="assets/img/portfolio/スクリーンショット 2024-03-11 17.38.04.png" alt="..." />
+                            <img class="img-fluid border border-light border-2" src="assets/img/portfolio/スクリーンショット 2024-03-11 18.00.44.png" alt="..." />
                         </div>
                     </div>
                     <!-- Portfolio Item 5-->
@@ -117,7 +131,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid border border-light border-2" src="assets/img/portfolio/スクリーンショット 2024-03-11 18.00.44.png" alt="..." />
+                            <img class="img-fluid border border-light border-2" src="assets/img/portfolio/スクリーンショット 2024-03-11 17.38.04.png" alt="..." />
                         </div>
                     </div>
                 </div>
@@ -256,7 +270,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">地元のwebアプリ</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -264,12 +278,20 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." />
+                                    <img class="img-fluid rounded mb-5 border border-light border-2" src="assets/img/portfolio/スクリーンショット 2024-03-11 17.28.09.png" alt="..." />
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <a class="btn btn-primary mb-2" href="https://kohrigaoka-webapp.onrender.com/" target="_blank" rel="noopener noreferrer">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        webapp
+                                    </a>
+                                    <a class="btn btn-primary mb-2" href="https://github.com/seyu0930/kohrigaoka_webapp/" target="_blank" rel="noopener noreferrer">
+                                        <i class="fa-brands fa-github"></i>
+                                       github
+                                    </a>
+                                    <button class="btn btn-primary mb-2" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
+                                        close
                                     </button>
                                 </div>
                             </div>
@@ -288,7 +310,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty Cake</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">株式投資リアルタイム音声アラート</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -296,12 +318,16 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="..." />
+                                    <img class="img-fluid rounded mb-5 border border-light border-2" src="assets/img/portfolio/スクリーンショット 2024-03-11 17.15.00.png" alt="..." />
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <a class="btn btn-primary mb-2" href="https://note.com/yusebiii/n/n2b9af478ba51" target="_blank" rel="noopener noreferrer">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        article
+                                    </a>
+                                    <button class="btn btn-primary mb-2" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
+                                        close
                                     </button>
                                 </div>
                             </div>
@@ -320,7 +346,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">株式投資5分足自動売買システム</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -328,12 +354,16 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png" alt="..." />
+                                    <img class="img-fluid rounded mb-5 border border-light border-2" src="assets/img/portfolio/スクリーンショット 2024-03-11 17.41.20.png" alt="..." />
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <a class="btn btn-primary mb-2" href="https://note.com/yusebiii/n/n61032508047a?magazine_key=m0b3e431bb4f7" target="_blank" rel="noopener noreferrer">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        article
+                                    </a>
+                                    <button class="btn btn-primary mb-2" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
+                                        close
                                     </button>
                                 </div>
                             </div>
@@ -352,7 +382,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Controller</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">ゼミでの研究</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -360,12 +390,16 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="..." />
+                                    <img class="img-fluid rounded mb-5 border border-light border-2" src="assets/img/portfolio/スクリーンショット 2024-03-11 18.00.44.png" alt="..." />
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <a class="btn btn-primary mb-2" href="https://note.com/yusebiii/n/nbae047d19b51" target="_blank" rel="noopener noreferrer">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        article
+                                    </a>
+                                    <button class="btn btn-primary mb-2" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
+                                        close
                                     </button>
                                 </div>
                             </div>
@@ -384,7 +418,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Locked Safe</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">ポートフォリオサイト</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -392,12 +426,16 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="..." />
+                                    <img class="img-fluid rounded mb-5 border border-light border-2" src="assets/img/portfolio/スクリーンショット 2024-03-11 17.44.55.png" alt="..." />
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <a class="btn btn-primary mb-2" href="https://github.com/seyu0930/myportfolio/" target="_blank" rel="noopener noreferrer">
+                                        <i class="fa-brands fa-github"></i>
+                                      github
+                                    </a>
+                                    <button class="btn btn-primary mb-2" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
+                                        close
                                     </button>
                                 </div>
                             </div>
@@ -416,7 +454,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Submarine</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">その他VBAでの実績</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -424,12 +462,16 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="..." />
+                                    <img class="img-fluid rounded mb-5 border border-light border-2" src="assets/img/portfolio/スクリーンショット 2024-03-11 17.38.04.png" alt="..." />
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <a class="btn btn-primary mb-2" href="https://note.com/yusebiii/n/nb635affb3f49" target="_blank" rel="noopener noreferrer">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        article
+                                    </a>
+                                    <button class="btn btn-primary mb-2" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
+                                        close
                                     </button>
                                 </div>
                             </div>
