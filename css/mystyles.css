@@ -70,12 +70,12 @@ span.marker{
     background-image: linear-gradient(90deg, #15e9f9, #15e9f9); /* 単色の場合は同じ色、グラデーションさせる場合は別々の色 */
     background-repeat: no-repeat;
     background-position: bottom left;
-    background-size: 0 15%; /* '30%'の部分にマーカーの太さを記入 */
+    background-size: 0 20%; /* '30%'の部分にマーカーの太さを記入 */
     transition: all 4s ease-in-out; /* マーカーを引く速度を調整 */
   }
 
   .js-marker-4.inview {
-    background-size: 100% 30%; /* '30%'の部分は上で設定した太さに合わせる */
+    background-size: 100% 20%; /* '30%'の部分は上で設定した太さに合わせる */
   }
 
   /* カードのホバー */
